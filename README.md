@@ -20,9 +20,9 @@ This project is a website for Bondi Template, created using HTML, CSS, JavaScrip
 - Font Awesome library
 
 Preview
-Live Demo: https://shawky-13.github.io/Car-Agency-Landing-Page-/
-Repo Link: https://github.com/shawky-13/Car-Agency-Landing-Page-
-If you have any comment or modification, leave me a message with your modification, my friend. I hope you like this simple page.
+- Live Demo: https://shawky-13.github.io/Car-Agency-Landing-Page-/
+- Repo Link: https://github.com/shawky-13/Car-Agency-Landing-Page-
+- If you have any comment or modification, leave me a message with your modification, my friend. I hope you like this simple page.
 
 ## Designed by
 - [Shawky Mshrif] - junior Front end developer
