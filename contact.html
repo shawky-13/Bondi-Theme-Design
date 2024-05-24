@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="imgs/logo.png" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="css/contact.css" />
+    <title>Contact Form</title>
+  </head>
+  <body>
+    <div class="content">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-10">
+            <div class="row justify-content-center">
+              <div class="col-md-6">
+                <h3 class="heading mb-4">Let's talk about everything!</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Voluptas debitis, fugit natus?
+                </p>
+                <p>
+                  <img
+                    src="imgs/undraw-contact.svg"
+                    alt="Image"
+                    class="img-fluid"
+                  />
+                </p>
+              </div>
+              <div class="col-md-6">
+                <form
+                  class="mb-5"
+                  method="post"
+                  id="contactForm"
+                  name="contactForm"
+                >
+                  <div class="row">
+                    <div
+                      class="col-md-12 form-group"
+                      data-mdb-input-init
+                      class="form-outline mb-4"
+                    >
+                      <input
+                        type="text"
+                        class="form-control form-control-lg mb-4"
+                        name="name"
+                        id="name"
+                        placeholder="Your name"
+                      />
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div
+                      class="col-md-12 form-group"
+                      data-mdb-input-init
+                      class="form-outline mb-4"
+                    >
+                      <input
+                        type="text"
+                        class="form-control form-control-lg mb-4"
+                        name="email"
+                        id="email"
+                        placeholder="Email"
+                      />
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div
+                      class="col-md-12 form-group"
+                      data-mdb-input-init
+                      class="form-outline mb-4"
+                    >
+                      <input
+                        type="text"
+                        class="form-control form-control-lg mb-4"
+                        name="subject"
+                        id="subject"
+                        placeholder="Subject"
+                      />
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div
+                      class="col-md-12 form-group"
+                      data-mdb-input-init
+                      class="form-outline mb-4"
+                    >
+                      <textarea
+                        class="form-control form-control-lg mb-4"
+                        name="message"
+                        id="message"
+                        cols="30"
+                        rows="7"
+                        placeholder="Write your message"
+                      ></textarea>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12">
+                      <input
+                        type="submit"
+                        value="Send Message"
+                        class="btn btn-primary rounded-0 py-2 px-4 mb-4"
+                      />
+                      <span class="submitting"></span>
+                    </div>
+                  </div>
+                </form>
+                <div id="form-message-warning mt-4"></div>
+                <div id="form-message-success">
+                  Your message was sent, thank you!
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script
+      defer
+      src="https://static.cloudflareinsights.com/beacon.min.js/vef91dfe02fce4ee0ad053f6de4f175db1715022073587"
+      integrity="sha512-sDIX0kl85v1Cl5tu4WGLZCpH/dV9OHbA4YlKCuCiMmOQIk4buzoYDZSFj+TvC71mOBLh8CDC/REgE0GX0xcbjA=="
+      data-cf-beacon='{"rayId":"88830050ef6741d7","version":"2024.4.1","token":"cd0b4b3a733644fc843ef0b185f98241"}'
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
